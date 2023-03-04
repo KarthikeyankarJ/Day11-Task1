@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:AvenirNext,Arial,Helvetica,sans-serif ;
+  box-sizing: border-box;
+  color: white;
+}
+
+.ticketsheet{
+  width: 100%;
+  height: 100vh;
+  background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(pablo-heimplatz-ZODcBkEohk8-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.content{
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  transform: translateY(30%);
+  animation: content 1.5  s ease-in-out;
+}
+@keyframes content{
+  0%{
+    transform: translateY(-50%);
+  }
+}
+.info{
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  margin-top: 40px;
+}
+.content p{
+  text-align: end;
+  margin-bottom: 10px;
+  justify-content: center;
+  font-weight: bold;
+}
+.profile{
+  width: 60px;
+}
+.profile img{
+  width: 100%;
+  border-radius: 50%;
+  margin-top: 16px;
+}
+button{
+  width: 100px;
+  padding: 10px;
+  border-radius: 5%;
+  color: black;
+  background: rgba(255, 254, 254, 0.8);
+  border: none;
+  cursor: pointer;
+  margin: 24px 16px;
+  transition: 0.5s;
+}
+button:hover{
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgb(0, 0, 0);
+}
+.content h1{
+  margin-bottom: 20px;
+}
+.content h3{
+  margin-bottom: 20px;
+}
+p input{
+  width: 250px;
+  height: 28px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: rgb(0 0 0 / 5%);
+  padding: 16px 12px;
+  color: black;
+  outline: none;
+  background: rgba(255, 255, 255, 0.8);
+}
